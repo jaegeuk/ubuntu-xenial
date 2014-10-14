@@ -110,7 +110,7 @@ EXPORT_SYMBOL_GPL(path_noexec);
 
 bool path_nosuid(const struct path *path)
 {
-	return (path->mnt->mnt_flags & MNT_NOSUID) ||
+	return !mnt_may_suid(path->mnt) ||
 	       (path->mnt->mnt_sb->s_iflags & SB_I_NOSUID);
 }
 EXPORT_SYMBOL(path_nosuid);
