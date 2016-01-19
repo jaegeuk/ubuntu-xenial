@@ -38,6 +38,7 @@ struct ovl_dir_cache {
 struct ovl_readdir_data {
 	struct dir_context ctx;
 	bool is_lowest;
+	struct dentry *dentry;
 	struct rb_root root;
 	struct list_head *list;
 	struct list_head middle;
@@ -210,14 +211,9 @@ static int ovl_check_whiteouts(struct dentry *dir, struct ovl_readdir_data *rdd)
 	const struct cred *old_cred;
 	struct cred *override_cred;
 
-	override_cred = prepare_creds();
+	override_cred = ovl_prepare_creds(rdd->dentry->d_sb);
 	if (!override_cred)
 		return -ENOMEM;
-
-	/*
-	 * CAP_DAC_OVERRIDE for lookup
-	 */
-	cap_raise(override_cred->cap_effective, CAP_DAC_OVERRIDE);
 	old_cred = override_creds(override_cred);
 
 	err = mutex_lock_killable(&dir->d_inode->i_mutex);
@@ -290,6 +286,7 @@ static int ovl_dir_read_merged(struct dentry *dentry, struct list_head *list)
 	struct path realpath;
 	struct ovl_readdir_data rdd = {
 		.ctx.actor = ovl_fill_merge,
+		.dentry = dentry,
 		.list = list,
 		.root = RB_ROOT,
 		.is_lowest = false,
