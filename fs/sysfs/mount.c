@@ -59,7 +59,8 @@ static struct file_system_type sysfs_fs_type = {
 	.name		= "sysfs",
 	.mount		= sysfs_mount,
 	.kill_sb	= sysfs_kill_sb,
-	.fs_flags	= FS_USERNS_VISIBLE | FS_USERNS_MOUNT,
+	.fs_flags	= FS_USERNS_VISIBLE | FS_USERNS_MOUNT |
+			  FS_USERNS_SHARE_SB,
 };
 
 int __init sysfs_init(void)

@@ -472,7 +472,8 @@ retry:
 		hlist_for_each_entry(old, &type->fs_supers, s_instances) {
 			if (!test(old, data))
 				continue;
-			if (user_ns != old->s_user_ns) {
+			if (!(type->fs_flags & FS_USERNS_SHARE_SB) &&
+			    user_ns != old->s_user_ns) {
 				spin_unlock(&sb_lock);
 				if (s) {
 					up_write(&s->s_umount);
