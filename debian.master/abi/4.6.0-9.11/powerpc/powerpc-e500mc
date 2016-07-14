@@ -13262,9 +13262,9 @@ EXPORT_SYMBOL_GPL net/bluetooth/bluetooth 0xf64c2086	l2cap_add_psm
 EXPORT_SYMBOL_GPL net/bluetooth/bluetooth 0xf72c9800	l2cap_chan_connect
 EXPORT_SYMBOL_GPL net/bridge/br_netfilter 0x0cb0f8b7	br_netfilter_enable
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x1c34ad9b	br_multicast_has_querier_adjacent
-EXPORT_SYMBOL_GPL net/bridge/bridge 0x1c490fc7	br_deliver
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x1e365e2d	br_multicast_has_querier_anywhere
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x2c031ece	br_dev_queue_push_xmit
+EXPORT_SYMBOL_GPL net/bridge/bridge 0x39393af6	br_deliver
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x6b3f1d73	br_forward_finish
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x9d306679	br_multicast_list_adjacent
 EXPORT_SYMBOL_GPL net/bridge/bridge 0xa2634f0f	br_handle_frame_finish

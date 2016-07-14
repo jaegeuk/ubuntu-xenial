@@ -13195,10 +13195,10 @@ EXPORT_SYMBOL_GPL net/bridge/bridge 0x1a941c1c	br_multicast_has_querier_adjacent
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x29905ca4	br_multicast_list_adjacent
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x3263832e	br_handle_frame_finish
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x33cfbfde	br_forward_finish
-EXPORT_SYMBOL_GPL net/bridge/bridge 0x5b6d1a54	br_deliver
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x738a97f8	br_dev_queue_push_xmit
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x8d05d61d	nf_br_ops
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x9b0f6ff9	br_multicast_has_querier_anywhere
+EXPORT_SYMBOL_GPL net/bridge/bridge 0xf6c92d80	br_deliver
 EXPORT_SYMBOL_GPL net/bridge/netfilter/nf_tables_bridge 0x12970e89	nft_bridge_ip6hdr_validate
 EXPORT_SYMBOL_GPL net/bridge/netfilter/nf_tables_bridge 0xed284284	nft_bridge_iphdr_validate
 EXPORT_SYMBOL_GPL net/core/devlink 0x04a0a14d	devlink_free

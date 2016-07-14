@@ -13319,7 +13319,7 @@ EXPORT_SYMBOL_GPL net/bluetooth/bluetooth 0xbaaf6aab	l2cap_chan_create
 EXPORT_SYMBOL_GPL net/bluetooth/bluetooth 0xd8d81510	l2cap_chan_set_defaults
 EXPORT_SYMBOL_GPL net/bluetooth/bluetooth 0xf980a2de	l2cap_add_psm
 EXPORT_SYMBOL_GPL net/bridge/br_netfilter 0x0cb0f8b7	br_netfilter_enable
-EXPORT_SYMBOL_GPL net/bridge/bridge 0x1dc0dd1b	br_deliver
+EXPORT_SYMBOL_GPL net/bridge/bridge 0x13432b55	br_deliver
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x3ac3c2a7	br_dev_queue_push_xmit
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x4e66e8b8	nf_br_ops
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x82b74eae	br_multicast_has_querier_adjacent

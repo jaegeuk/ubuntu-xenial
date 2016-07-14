@@ -13214,9 +13214,9 @@ EXPORT_SYMBOL_GPL net/bridge/br_netfilter 0x0cb0f8b7	br_netfilter_enable
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x0b27bc56	br_handle_frame_finish
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x23403257	br_multicast_has_querier_anywhere
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x25da6bf1	br_forward_finish
-EXPORT_SYMBOL_GPL net/bridge/bridge 0x2c2cae4f	br_deliver
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x386f0d9b	br_multicast_has_querier_adjacent
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x734d72c3	nf_br_ops
+EXPORT_SYMBOL_GPL net/bridge/bridge 0x73d35a4d	br_deliver
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x9835c607	br_dev_queue_push_xmit
 EXPORT_SYMBOL_GPL net/bridge/bridge 0xe5ad4498	br_multicast_list_adjacent
 EXPORT_SYMBOL_GPL net/bridge/netfilter/nf_tables_bridge 0x7433ac49	nft_bridge_ip6hdr_validate

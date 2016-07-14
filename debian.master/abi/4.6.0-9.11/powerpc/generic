@@ -13618,11 +13618,11 @@ EXPORT_SYMBOL_GPL net/bluetooth/bluetooth 0xe0c66034	l2cap_add_psm
 EXPORT_SYMBOL_GPL net/bridge/br_netfilter 0x0cb0f8b7	br_netfilter_enable
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x1374dbd7	nf_br_ops
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x394af0d7	br_handle_frame_finish
+EXPORT_SYMBOL_GPL net/bridge/bridge 0x8717c665	br_deliver
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x871c0b3d	br_dev_queue_push_xmit
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x8ef6cde3	br_multicast_has_querier_adjacent
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x9aaf1077	br_multicast_list_adjacent
 EXPORT_SYMBOL_GPL net/bridge/bridge 0xa3330304	br_forward_finish
-EXPORT_SYMBOL_GPL net/bridge/bridge 0xaabeb3ea	br_deliver
 EXPORT_SYMBOL_GPL net/bridge/bridge 0xb2e142b3	br_multicast_has_querier_anywhere
 EXPORT_SYMBOL_GPL net/bridge/netfilter/nf_tables_bridge 0x2795fa6b	nft_bridge_iphdr_validate
 EXPORT_SYMBOL_GPL net/bridge/netfilter/nf_tables_bridge 0xef3edcd1	nft_bridge_ip6hdr_validate

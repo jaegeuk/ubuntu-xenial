@@ -13352,12 +13352,12 @@ EXPORT_SYMBOL_GPL net/bluetooth/bluetooth 0xeadf98c0	bt_debugfs
 EXPORT_SYMBOL_GPL net/bridge/br_netfilter 0x0cb0f8b7	br_netfilter_enable
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x05f7ec0e	br_forward_finish
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x11a3a795	br_multicast_list_adjacent
-EXPORT_SYMBOL_GPL net/bridge/bridge 0x132ebd93	br_deliver
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x4909a023	br_multicast_has_querier_anywhere
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x5950b359	br_multicast_has_querier_adjacent
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x68a03db2	nf_br_ops
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x8aeed4aa	br_handle_frame_finish
 EXPORT_SYMBOL_GPL net/bridge/bridge 0x91d51375	br_dev_queue_push_xmit
+EXPORT_SYMBOL_GPL net/bridge/bridge 0xc112594a	br_deliver
 EXPORT_SYMBOL_GPL net/bridge/netfilter/nf_tables_bridge 0x1d937017	nft_bridge_ip6hdr_validate
 EXPORT_SYMBOL_GPL net/bridge/netfilter/nf_tables_bridge 0xc30a0a25	nft_bridge_iphdr_validate
 EXPORT_SYMBOL_GPL net/core/devlink 0x42d799b1	devlink_port_type_ib_set
