@@ -143,6 +143,7 @@ fs/dlm/dlm.ko
 fs/ecryptfs/*
 fs/exofs/libore.ko
 fs/fat/*
+fs/fuse/*
 fs/nls/nls_iso8859-1.ko
 fs/isofs/*
 fs/cifs/*
