@@ -7829,9 +7829,9 @@ CONFIG_RCU_NOCB_CPU_ALL                         policy<{'amd64': 'y', 'powerpc-g
 # Menu: General setup >> Stack Protector buffer overflow detection
 CONFIG_CC_STACKPROTECTOR_NONE                   policy<{'amd64': 'n', 'arm64': 'n', 'armhf': 'n', 'i386': 'n'}>
 CONFIG_CC_STACKPROTECTOR_REGULAR                policy<{'amd64': 'n', 'arm64': 'n', 'armhf': 'n', 'i386': 'n'}>
-CONFIG_CC_STACKPROTECTOR_REGULAR                 policy<{'amd64': 'y', 'arm64': 'y', 'armhf': 'y', 'i386': 'y'}>
+CONFIG_CC_STACKPROTECTOR_STRONG                 policy<{'amd64': 'y', 'arm64': 'y', 'armhf': 'y', 'i386': 'y'}>
 #
-CONFIG_CC_STACKPROTECTOR_REGULAR			mark<ENFORCED>
+CONFIG_CC_STACKPROTECTOR_STRONG			mark<ENFORCED>
 
 # Menu: General setup >> Stack Protector buffer overflow detection >> Architecture: arm
 
