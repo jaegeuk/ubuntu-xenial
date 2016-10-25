@@ -1,23 +1,18 @@
-linux-hwe-edge (4.8.0-25.27~16.04.1) xenial; urgency=low
+linux-hwe-edge (4.8.0-27.29~16.04.1) xenial; urgency=low
 
   [ Seth Forshee ]
 
   * Release Tracking Bug
-    - LP: #1632918
+    - LP: #1635377
+
+  * proc_keys_show crash when reading /proc/keys (LP: #1634496)
+    - SAUCE: KEYS: ensure xbuf is large enough to fix buffer overflow in
+      proc_keys_show (LP: #1634496)
 
   * Revert "If zone is so small that watermarks are the same, stop zone balance"
     in yakkety (LP: #1632894)
     - Revert "UBUNTU: SAUCE: (no-up) If zone is so small that watermarks are the
       same, stop zone balance."
-
- -- Seth Forshee <seth.forshee@canonical.com>  Wed, 12 Oct 2016 21:57:07 -0500
-
-linux (4.8.0-24.26) yakkety; urgency=low
-
-  [ Seth Forshee ]
-
-  * Release Tracking Bug
-    - LP: #1632749
 
   * lts-yakkety 4.8 cannot mount lvm raid1 (LP: #1631298)
     - SAUCE: (no-up) dm raid: fix compat_features validation
@@ -25,15 +20,6 @@ linux (4.8.0-24.26) yakkety; urgency=low
   * kswapd0 100% CPU usage (LP: #1518457)
     - SAUCE: (no-up) If zone is so small that watermarks are the same, stop zone
       balance.
-
- -- Seth Forshee <seth.forshee@canonical.com>  Wed, 12 Oct 2016 10:21:44 -0500
-
-linux (4.8.0-23.25) yakkety; urgency=low
-
-  [ Seth Forshee ]
-
-  * Release Tracking Bug
-    - LP: #1632484
 
   * [Trusty->Yakkety] powerpc/64: Fix incorrect return value from
     __copy_tofrom_user (LP: #1632462)
@@ -95,7 +81,14 @@ linux (4.8.0-23.25) yakkety; urgency=low
   * sha1-powerpc returning wrong results (LP: #1629977)
     - crypto: sha1-powerpc - little-endian support
 
- -- Seth Forshee <seth.forshee@canonical.com>  Tue, 11 Oct 2016 16:38:45 -0500
+ -- Seth Forshee <seth.forshee@canonical.com>  Thu, 20 Oct 2016 14:09:37 -0500
+
+linux (4.8.0-26.28) yakkety; urgency=low
+
+  * CVE-2016-5195
+    - SAUCE: mm: remove gup_flags FOLL_WRITE games from __get_user_pages()
+
+ -- Stefan Bader <stefan.bader@canonical.com>  Mon, 17 Oct 2016 13:04:09 +0200
 
 linux (4.8.0-22.24) yakkety; urgency=low
 
