@@ -1,9 +1,16 @@
-linux-hwe-edge (4.8.0-28.30~16.04.1) xenial; urgency=low
+linux-hwe-edge (4.8.0-30.32~16.04.1) xenial; urgency=low
+
+  * CVE-2016-8655 (LP: #1646318)
+    - packet: fix race condition in packet_set_ring
+
+ -- Brad Figg <brad.figg@canonical.com>  Thu, 01 Dec 2016 08:02:53 -0800
+
+linux (4.8.0-28.30) yakkety; urgency=low
 
   [ Luis Henriques ]
 
   * Release Tracking Bug
-    - LP: #1643524
+    - LP: #1641083
 
   * lxc-attach to malicious container allows access to host (LP: #1639345)
     - Revert "UBUNTU: SAUCE: (noup) ptrace: being capable wrt a process requires
@@ -501,7 +508,7 @@ linux-hwe-edge (4.8.0-28.30~16.04.1) xenial; urgency=low
   * Bluetooth 04ca:3011 [Asus Aspire V3-371] doesn't work (LP: #1535802)
     - Bluetooth: Add a new 04ca:3011 QCA_ROME device
 
- -- Luis Henriques <luis.henriques@canonical.com>  Mon, 21 Nov 2016 10:46:49 +0000
+ -- Luis Henriques <luis.henriques@canonical.com>  Fri, 11 Nov 2016 10:30:54 +0000
 
 linux (4.8.0-27.29) yakkety; urgency=low
 
