@@ -1,9 +1,21 @@
-linux-hwe-edge (4.8.0-31.33~16.04.1) xenial; urgency=low
+linux-hwe-edge (4.8.0-32.34~16.04.1) xenial; urgency=low
+
+  [ Thadeu Lima de Souza Cascardo ]
+
+  * Release Tracking Bug
+    - LP: #1649361
+
+  * Vulnerability picked up from 4.8.10 stable kernel (LP: #1648662)
+    - net: handle no dst on skb in icmp6_send
+
+ -- Thadeu Lima de Souza Cascardo <cascardo@canonical.com>  Tue, 13 Dec 2016 13:00:50 -0200
+
+linux (4.8.0-31.33) yakkety; urgency=low
 
   [ Luis Henriques ]
 
   * Release Tracking Bug
-    - LP: #1648038
+    - LP: #1648034
 
   * Update hio driver to 2.1.0.28 (LP: #1646643)
     - SAUCE: hio: update to Huawei ES3000_V2 (2.1.0.28)
@@ -465,7 +477,7 @@ linux-hwe-edge (4.8.0-31.33~16.04.1) xenial; urgency=low
   * CVE-2016-7039 and CVE-2016-8666 (LP: #1631287)
     - Revert "UBUNTU: SAUCE: net: add recursion limit to GRO"
 
- -- Luis Henriques <luis.henriques@canonical.com>  Wed, 07 Dec 2016 15:21:44 +0000
+ -- Luis Henriques <luis.henriques@canonical.com>  Wed, 07 Dec 2016 10:23:48 +0000
 
 linux (4.8.0-30.32) yakkety; urgency=low
 
