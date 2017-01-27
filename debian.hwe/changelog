@@ -1,14 +1,15 @@
-linux-hwe (4.8.0-35.37~16.04.1) xenial; urgency=low
+linux-hwe (4.8.0-35.38~16.04.1) xenial; urgency=low
 
-  [ Luis Henriques ]
-
-  * Release Tracking Bug
-    - LP: #1651802
+  * Mouse cursor invisible or does not move (LP: #1646574)
+    - drm/nouveau/disp/nv50-: split chid into chid.ctrl and chid.user
+    - drm/nouveau/disp/nv50-: specify ctrl/user separately when constructing
+      classes
+    - drm/nouveau/disp/gp102: fix cursor/overlay immediate channel indices
 
   * Miscellaneous Ubuntu changes
     - SAUCE: Do not build the xr-usb-serial driver for s390
 
- -- Luis Henriques <luis.henriques@canonical.com>  Wed, 21 Dec 2016 18:04:49 +0000
+ -- Andy Whitcroft <apw@canonical.com>  Fri, 27 Jan 2017 07:53:10 +0000
 
 linux (4.8.0-33.35) yakkety; urgency=low
 
