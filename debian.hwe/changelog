@@ -1,4 +1,4 @@
-linux-hwe (4.8.0-35.39~16.04.1) xenial; urgency=low
+linux-hwe (4.8.0-35.40~16.04.1) xenial; urgency=low
 
   * Mouse cursor invisible or does not move (LP: #1646574)
     - drm/nouveau/disp/nv50-: split chid into chid.ctrl and chid.user
@@ -9,6 +9,7 @@ linux-hwe (4.8.0-35.39~16.04.1) xenial; urgency=low
   * Miscellaneous Ubuntu changes
     - SAUCE: Do not build the xr-usb-serial driver for s390
     - [Config] switch arm64 kernels to compressed
+    - [Config] ensure flash-kernel is upgraded before we are installed
 
  -- Andy Whitcroft <apw@canonical.com>  Tue, 31 Jan 2017 22:02:33 +0000
 
