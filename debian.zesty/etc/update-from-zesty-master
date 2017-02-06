@@ -16,8 +16,8 @@ DEBIAN_TARGET=debian.${TARGET_RELEASE_BRANCH}
 
 DEF_REPO=git://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/${SOURCE_RELEASE}
 RELEASE_REPO=${_DEF_REPO:=${DEF_REPO}}
-DEF_ARCHES="i386 amd64 armhf arm64 ppc64el powerpc"
-FOREIGN_ARCHES=
+DEF_ARCHES="i386 amd64 armhf arm64 ppc64el"
+FOREIGN_ARCHES=powerpc
 
 #
 # PPAs do not have a proposed pocket. The default assumes the

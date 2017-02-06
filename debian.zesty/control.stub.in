@@ -19,16 +19,13 @@ Build-Depends:
  pkg-config,
  flex,
  bison,
- libunwind8-dev [amd64 arm64 armhf i386 powerpc ppc64el],
+ libunwind8-dev [amd64 arm64 armhf i386 ppc64el],
  openssl,
  libssl-dev,
  libaudit-dev,
  bc,
  python-dev,
  gawk,
- device-tree-compiler [powerpc],
- u-boot-tools [powerpc],
- libc6-dev-ppc64 [powerpc],
  libudev-dev,
  autoconf,
  automake,
@@ -58,7 +55,7 @@ Description: Header files related to Linux kernel version PKGVER
  /usr/share/doc/SRCPKGNAME-headers-PKGVER-ABINUM/debian.README.gz for details
 
 Package: SRCPKGNAME-tools-PKGVER-ABINUM
-Architecture: i386 amd64 armhf arm64 powerpc ppc64el s390x
+Architecture: i386 amd64 armhf arm64 ppc64el s390x
 Section: devel
 Priority: optional
 Depends: ${misc:Depends}, ${shlibs:Depends}, linux-tools-common
