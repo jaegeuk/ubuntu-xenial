@@ -1,4 +1,15 @@
-linux-lts-zesty (4.10.0-9.11~16.04.1) xenial; urgency=low
+linux-hwe-edge (4.10.0-9.11~16.04.2) xenial; urgency=low
+
+  [ Tim Gardner ]
+
+  * Release Tracking Bug
+    - LP: #1669505
+
+  * Switched packaging to hwe-edge
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Thu, 02 Mar 2017 08:10:32 -0700
+
+linux-hwe-edge (4.10.0-9.11~16.04.1) xenial; urgency=low
 
   [ Tim Gardner ]
 
