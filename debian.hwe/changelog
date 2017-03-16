@@ -1,6 +1,88 @@
-linux-hwe (4.8.0-42.45~16.04.1) xenial; urgency=low
+linux-hwe (4.8.0-43.46~16.04.1) xenial; urgency=low
 
-  * linux-hwe: 4.8.0-42.45~16.04.1 -proposed tracker (LP: #1671408)
+  * linux-hwe: 4.8.0-43.46~16.04.1 -proposed tracker (LP: #1673223)
+
+  * linux: 4.8.0-43.46 -proposed tracker (LP: #1673222)
+
+  * POWER9: Improve CAS negotiation (LP: #1671169)
+    - powerpc: Parse the command line before calling CAS
+    - powerpc: Add missing error check to prom_find_boot_cpu()
+    - powerpc/pseries: Advertise HPT resizing support via CAS
+    - powerpc/64: Disable use of radix under a hypervisor
+    - powerpc/pseries: Advertise Hot Plug Event support to firmware
+    - powerpc: Update to new option-vector-5 format for CAS
+
+  * Power9 kernel: add virtualization patches (LP: #1670800)
+    - powerpc/fadump: Set core e_flags using kernel's ELF ABI version
+    - powerpc/sparse: Add more assembler prototypes
+    - powerpc/pasemi: Fix Nemo SB600 i8259 interrupts.
+    - powerpc/pasemi: Fix device_type of Nemo SB600 node.
+    - powerpc/pseries: Use H_CLEAR_HPT to clear MMU hash table during kexec
+    - powerpc/pseries: Move CMO code from plapr_wrappers.h to platforms/pseries
+    - powerpc: Fix old style declaration GCC warnings
+    - powerpc/pseries: add definitions for new H_SIGNAL_SYS_RESET hcall
+    - powerpc/prom: Define structs for client architecture vectors
+    - powerpc/prom: Switch to using structs for ibm_architecture_vec
+    - tracing: Have the reg function allow to fail
+    - powerpc: port 64 bits pgtable_cache to 32 bits
+    - powerpc/64: Don't try to use radix MMU under a hypervisor
+    - powerpc/pseries: Fixes for the "ibm,architecture-vec-5" options
+    - powerpc/64: Enable use of radix MMU under hypervisor on POWER9
+
+  * lsattr 32bit does not work on 64bit kernel (Inappropriate ioctl error)
+    (LP: #1619918)
+    - btrfs: fix btrfs_compat_ioctl failures on non-compat ioctls
+
+  * linux-tools-common should Depends: lsb-release (LP: #1667571)
+    - [Config] linux-tools-common depends on lsb-release
+
+  * CAPI:Ubuntu: Kernel panic while rebooting (LP: #1667599)
+    - pci/hotplug/pnv-php: Remove WARN_ON() in pnv_php_put_slot()
+
+  * Add Use-After-Free Patch for Ubuntu16.10 - EEH on BELL3 adapter fails to
+    recover (serial/tty) (LP: #1669153)
+    - 8250_pci: Fix potential use-after-free in error path
+
+  * Request to backport cxlflash patches to Xenial SRU stream (LP: #1623750)
+    - scsi: cxlflash: Scan host only after the port is ready for I/O
+    - scsi: cxlflash: Fix to avoid EEH and host reset collisions
+    - scsi: cxlflash: Improve EEH recovery time
+
+  * FlashGT Integration and Setup: fsbmc30: After 17th reboot of soft bootme,
+    HTX & Linux errors seen with 256 virtual LUNs (LP: #1667239)
+    - cxl: Fix coredump generation when cxl_get_fd() is used
+
+  * POWER9: Additional patches for 17.04 and 16.04.2 (LP: #1667116)
+    - powerpc/mm: Update PROTFAULT handling in the page fault path
+    - powerpc/mm/radix: Update pte update sequence for pte clear case
+    - powerpc/mm/radix: Use ptep_get_and_clear_full when clearing pte for full mm
+    - powerpc/mm/radix: Skip ptesync in pte update helpers
+    - SAUCE: powerpc/mm/hash: Always clear UPRT and Host Radix bits when setting
+      up CPU
+
+  * [Hyper-V] Ubuntu 14.04.2 LTS Generation 2 SCSI Errors on VSS Based Backups
+    (LP: #1470250)
+    - Drivers: hv: vss: Operation timeouts should match host expectation
+    - SAUCE: Tools: hv: vss: Thaw the filesystem and continue after freeze fails
+
+  * PowerNV: No rate limit for kernel error "KVM can't copy data from"
+    (LP: #1667416)
+    - SAUCE: KVM: PPC: Book3S: Ratelimit copy data failure error messages
+
+  * kernel 4.4.0-63 with USB WLAN RTL8192CU freezes desktop (LP: #1666421)
+    - rtlwifi: rtl_usb: Fix missing entry in USB driver's private data
+
+  * Export symbol "dev_pm_qos_update_user_latency_tolerance" (LP: #1666401)
+    - PM / QoS: Export dev_pm_qos_update_user_latency_tolerance
+
+  * Linux ZFS port doesn't respect RLIMIT_FSIZE (LP: #1656259)
+    - SAUCE: (noup) Update zfs to 0.6.5.8-0ubuntu4.2
+
+ -- Thadeu Lima de Souza Cascardo <cascardo@canonical.com>  Wed, 15 Mar 2017 17:02:15 -0300
+
+linux (4.8.0-42.45) yakkety; urgency=low
+
+  * linux: 4.8.0-42.45 -proposed tracker (LP: #1671176)
 
   * Regression in 4.4.0-65-generic causes very frequent system crashes
     (LP: #1669611)
