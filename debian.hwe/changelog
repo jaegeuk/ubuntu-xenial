@@ -1,6 +1,14 @@
-linux-hwe (4.8.0-44.47~16.04.1) xenial; urgency=low
+linux-hwe (4.8.0-45.48~16.04.1) xenial; urgency=low
 
-  * linux-hwe: 4.8.0-44.47~16.04.1 -proposed tracker (LP: #1674988)
+  * CVE-2017-7184
+    - xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window
+    - xfrm_user: validate XFRM_MSG_NEWAE incoming ESN size harder
+
+ -- Stefan Bader <stefan.bader@canonical.com>  Fri, 24 Mar 2017 12:03:39 +0100
+
+linux (4.8.0-44.47) yakkety; urgency=low
+
+  * linux: 4.8.0-44.47 -proposed tracker (LP: #1674986)
 
   * snaps with classic + jailmode confinement started to fail on zesty
     (LP: #1666897)
