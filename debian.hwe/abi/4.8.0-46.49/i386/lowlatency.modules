@@ -1706,7 +1706,6 @@ i6300esb
 i7300_edac
 i740fb
 i7core_edac
-i810
 i810fb
 i82092
 i82365
@@ -2800,7 +2799,6 @@ nls_cp936
 nls_cp949
 nls_cp950
 nls_euc-jp
-nls_iso8859-1
 nls_iso8859-13
 nls_iso8859-14
 nls_iso8859-15

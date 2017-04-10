@@ -1,5 +1,3 @@
-3c574_cs
-3c589_cs
 3c59x
 3w-9xxx
 3w-sas
@@ -219,7 +217,6 @@ afe4404
 affs
 ah4
 ah6
-aha152x_cs
 ahci
 ahci_ceva
 ahci_platform
@@ -236,8 +233,6 @@ aio_iiro_16
 aiptek
 aircable
 airo
-airo_cs
-airport
 airspy
 ak8975
 al3320a
@@ -258,11 +253,8 @@ am2315
 am53c974
 amc6821
 amd
-amd-rng
 amd5536udc
-amd8111_edac
 amd8111e
-amd8131_edac
 amdgpu
 amplc_dio200
 amplc_dio200_common
@@ -362,13 +354,13 @@ atmel
 atmel-flexcom
 atmel-hlcdc
 atmel_captouch
-atmel_cs
 atmel_mxt_ts
 atmel_pci
 atmtcp
 atp870u
 atusb
 atxp1
+aty128fb
 atyfb
 au0828
 au8522_common
@@ -383,12 +375,9 @@ auth_rpcgss
 authenc
 authencesn
 autofs4
-avm_cs
-avma1_cs
 avmfritz
 ax25
 ax88179_178a
-axnet_cs
 axp20x
 axp20x-i2c
 axp20x-pek
@@ -400,7 +389,6 @@ axp288_fuel_gauge
 b1
 b1dma
 b1pci
-b1pcmcia
 b2c2-flexcop
 b2c2-flexcop-pci
 b2c2-flexcop-usb
@@ -443,7 +431,6 @@ block2mtd
 blocklayoutdriver
 blowfish_common
 blowfish_generic
-bluecard_cs
 bluetooth
 bluetooth_6lowpan
 bma150
@@ -493,7 +480,6 @@ broadcom
 broadsheetfb
 bsd_comp
 bsr
-bt3c_cs
 bt878
 btbcm
 btcoexist
@@ -505,7 +491,6 @@ btrfs
 btrtl
 btsdio
 bttv
-btuart_cs
 btusb
 btwilink
 bu21013_ts
@@ -549,7 +534,6 @@ cast_common
 catc
 cb710
 cb710-mmc
-cb_das16_cs
 cb_pcidas
 cb_pcidas64
 cb_pcidda
@@ -617,12 +601,11 @@ cm32181
 cm3232
 cm3323
 cm36651
-cm4000_cs
-cm4040_cs
 cma3000_d0x
 cma3000_d0x_i2c
 cmac
 cmdlinepart
+cmm
 cmtp
 cnic
 cobalt
@@ -631,7 +614,6 @@ coda
 colibri-vf50-ts
 com20020
 com20020-pci
-com20020_cs
 com90io
 com90xx
 comedi
@@ -641,7 +623,6 @@ comedi_bond
 comedi_isadma
 comedi_parport
 comedi_pci
-comedi_pcmcia
 comedi_test
 comedi_usb
 comm
@@ -655,7 +636,6 @@ cpia2
 cpsw_ale
 cpu-notifier-error-inject
 cpufreq_schedutil
-cpufreq_spudemand
 cramfs
 crc-itu-t
 crc32_generic
@@ -758,7 +738,6 @@ da9211-regulator
 dac02
 daqboard2000
 das08
-das08_cs
 das08_isa
 das08_pci
 das16
@@ -767,6 +746,7 @@ das1800
 das6402
 das800
 davicom
+dax
 db9
 dc395x
 dccp
@@ -880,7 +860,6 @@ dt282x
 dt3000
 dt3155
 dt9812
-dtl1_cs
 dummy
 dummy-irq
 dummy_stm
@@ -982,11 +961,10 @@ eeti_ts
 efs
 egalax_ts
 egalax_ts_serial
+ehci-platform
 ehset
 elan_i2c
-electra_cf
 elo
-elsa_cs
 em28xx
 em28xx-alsa
 em28xx-dvb
@@ -1008,7 +986,6 @@ emi26
 emi62
 empeg
 ems_pci
-ems_pcmcia
 ems_usb
 emu10k1-gp
 enc28j60
@@ -1079,6 +1056,7 @@ fb_ssd1331
 fb_ssd1351
 fb_st7735r
 fb_st7789v
+fb_sys_fops
 fb_tinylcd
 fb_tls8204
 fb_uc1611
@@ -1094,7 +1072,6 @@ fc2580
 fcoe
 fcrypt
 fdomain
-fdomain_cs
 fdp
 fdp_i2c
 fealnx
@@ -1122,7 +1099,6 @@ fmc-chardev
 fmc-fakedev
 fmc-trivial
 fmc-write-eeprom
-fmvj18x_cs
 forcedeth
 fore_200e
 fotg210-hcd
@@ -1249,7 +1225,6 @@ gpio-wm8994
 gpio_backlight
 gpio_keys
 gpio_keys_polled
-gpio_mdio
 gpio_mouse
 gpio_tilt_polled
 gpio_wdt
@@ -1316,7 +1291,6 @@ gtco
 gtp
 guillemot
 gunze
-gxt4500
 hackrf
 hamachi
 hampshire
@@ -1463,7 +1437,6 @@ hmc6352
 hopper
 horus3a
 hostap
-hostap_cs
 hostap_pci
 hostap_plx
 hp03
@@ -1522,7 +1495,6 @@ i2c-nforce2
 i2c-ocores
 i2c-parport
 i2c-parport-light
-i2c-pasemi
 i2c-pca-platform
 i2c-piix4
 i2c-robotfuzz-osif
@@ -1544,7 +1516,6 @@ i40iw
 i5k_amb
 i6300esb
 i740fb
-i82092
 ib_cm
 ib_core
 ib_ipoib
@@ -1560,7 +1531,6 @@ ib_uverbs
 ibmaem
 ibmpex
 ibmpowernv
-ibmveth
 ibmvfc
 ibmvnic
 ibmvscsi
@@ -1734,7 +1704,6 @@ ipvlan
 ipw
 ipw2100
 ipw2200
-ipwireless
 ipx
 ir-hix5hd2
 ir-jvc-decoder
@@ -1942,7 +1911,6 @@ libcrc32c
 libcxgb
 libcxgbi
 libertas
-libertas_cs
 libertas_sdio
 libertas_spi
 libertas_tf
@@ -2526,14 +2494,10 @@ ni_at_a2150
 ni_at_ao
 ni_atmio
 ni_atmio16d
-ni_daq_700
-ni_daq_dio24
 ni_labpc
 ni_labpc_common
-ni_labpc_cs
 ni_labpc_isadma
 ni_labpc_pci
-ni_mio_cs
 ni_pcidio
 ni_pcimio
 ni_tio
@@ -2569,7 +2533,6 @@ nls_cp936
 nls_cp949
 nls_cp950
 nls_euc-jp
-nls_iso8859-1
 nls_iso8859-13
 nls_iso8859-14
 nls_iso8859-15
@@ -2584,7 +2547,6 @@ nls_koi8-r
 nls_koi8-ru
 nls_koi8-u
 nls_utf8
-nmclan_cs
 nosy
 notifier-error-inject
 nouveau
@@ -2614,7 +2576,6 @@ nvmet-rdma
 nx-compress
 nx-compress-powernv
 nx-compress-pseries
-nx-crypto
 nxp-nci
 nxp-nci_i2c
 nxp-ptn3460
@@ -2635,6 +2596,7 @@ ocrdma
 of_mmc_spi
 of_xilinx_wdt
 ofpart
+ohci-platform
 old_belkin-sir
 omap4-keypad
 omfs
@@ -2652,7 +2614,6 @@ option
 or51132
 or51211
 orinoco
-orinoco_cs
 orinoco_nortel
 orinoco_plx
 orinoco_tmd
@@ -2696,12 +2657,8 @@ paride
 parkbd
 parport
 parport_ax88796
-parport_cs
 parport_pc
 parport_serial
-pasemi-rng
-pasemi_edac
-pasemi_nand
 pata_ali
 pata_amd
 pata_artop
@@ -2729,7 +2686,6 @@ pata_of_platform
 pata_oldpiix
 pata_opti
 pata_optidma
-pata_pcmcia
 pata_pdc2027x
 pata_pdc202xx_old
 pata_piccolo
@@ -2773,25 +2729,18 @@ pcl816
 pcl818
 pcm3724
 pcmad
-pcmcia
-pcmcia_core
-pcmcia_rsrc
-pcmciamtd
 pcmda12
 pcmmio
 pcmuio
 pcnet32
-pcnet_cs
 pcrypt
 pcspkr
 pcwd_pci
 pcwd_usb
 pd
-pd6729
 pda_power
 pdc_adma
 peak_pci
-peak_pcmcia
 peak_usb
 pegasus
 pegasus_notetaker
@@ -2862,25 +2811,16 @@ pppoe
 pppox
 pps-gpio
 pps-ldisc
-pps_core
 pps_parport
 pptp
 prism2_usb
 ps2mult
-ps3-lpm
-ps3_gelic
-ps3disk
-ps3flash
-ps3rom
-ps3stor_lib
-ps3vram
 pseries-rng
 pseries_energy
 psmouse
 psnap
 pt
 ptlrpc
-ptp
 pulse8-cec
 pulsedlight-lidar-lite-v2
 pv88060-regulator
@@ -2916,8 +2856,6 @@ qla3xxx
 qla4xxx
 qlcnic
 qlge
-qlogic_cs
-qlogicfas408
 qm1d1c0042
 qmi_wwan
 qnx4
@@ -2927,7 +2865,6 @@ qt1010
 qt1070
 qt2160
 quatech2
-quatech_daqp_cs
 quota_tree
 quota_v1
 quota_v2
@@ -2946,7 +2883,6 @@ r8712u
 r8723au
 r8a66597-hcd
 r8a66597-udc
-rack-meter
 radeon
 radeonfb
 radio-bcm2048
@@ -2972,7 +2908,6 @@ raid6test
 raid_class
 ramoops
 raw
-ray_cs
 raydium_i2c_ts
 rbd
 rbtree_test
@@ -3233,7 +3168,6 @@ rtc-pcf85063
 rtc-pcf8523
 rtc-pcf8563
 rtc-pcf8583
-rtc-ps3
 rtc-r9701
 rtc-rc5t583
 rtc-rk808
@@ -3340,6 +3274,7 @@ sata_qstor
 sata_sil
 sata_sil24
 sata_sis
+sata_svw
 sata_sx4
 sata_uli
 sata_via
@@ -3397,13 +3332,10 @@ sdhci-pci
 sdhci-pltfm
 sdhci_f_sdh30
 sdio_uart
-sdricoh_cs
-sedlbauer_cs
 seed
 sensorhub
 ser_gigaset
 serial2002
-serial_cs
 serio_raw
 sermouse
 serpent_generic
@@ -3414,7 +3346,6 @@ sh_veu
 sha1-powerpc
 sha3_generic
 shark2
-shpchp
 sht15
 sht21
 sht3x
@@ -3453,7 +3384,6 @@ sky81452
 sky81452-backlight
 sky81452-regulator
 sl811-hcd
-sl811_cs
 slcan
 slip
 slram
@@ -3464,7 +3394,6 @@ sm750fb
 sm_common
 sm_ftl
 smb347-charger
-smc91c92_cs
 smipcie
 smm665
 smsc
@@ -3484,19 +3413,11 @@ snd-ac97-codec
 snd-ad1889
 snd-ak4113
 snd-ak4114
-snd-ak4117
 snd-ak4xxx-adda
 snd-ali5451
 snd-aloop
 snd-als300
 snd-als4000
-snd-aoa
-snd-aoa-codec-onyx
-snd-aoa-codec-tas
-snd-aoa-codec-toonie
-snd-aoa-fabric-layout
-snd-aoa-i2sbus
-snd-aoa-soundbus
 snd-atiixp
 snd-atiixp-modem
 snd-au8810
@@ -3587,9 +3508,7 @@ snd-oxygen-lib
 snd-pcm
 snd-pcm-dmaengine
 snd-pcxhr
-snd-pdaudiocf
 snd-portman2x4
-snd-powermac
 snd-pt2258
 snd-rawmidi
 snd-riptide
@@ -3728,9 +3647,7 @@ snd-virmidi
 snd-virtuoso
 snd-vx-lib
 snd-vx222
-snd-vxpocket
 snd-ymfpci
-snd_ps3
 snic
 soc_button_array
 soc_camera
@@ -3738,7 +3655,6 @@ soc_camera_platform
 soc_mediabus
 softdog
 softing
-softing_cs
 solo6x10
 solos-pci
 sony-btf-mpx
@@ -3762,7 +3678,6 @@ speakup_ltlk
 speakup_soft
 speakup_spkout
 speakup_txprt
-spectrum_cs
 speedfax
 speedtch
 spi-altera
@@ -3789,7 +3704,6 @@ spidev
 spl
 splat
 spmi
-spufs
 sr9700
 sr9800
 ssb
@@ -3800,6 +3714,7 @@ ssp_accel_sensor
 ssp_gyro_sensor
 ssp_iio
 sst25l
+sstfb
 ssu100
 st
 st-nci
@@ -3873,16 +3788,17 @@ svgalib
 sx8
 sx8654
 sx9500
-sym53c500_cs
 sym53c8xx
 symbolserial
 synaptics_i2c
 synaptics_usb
 synclink
-synclink_cs
 synclink_gt
 synclinkmp
 syscon-reboot-mode
+syscopyarea
+sysfillrect
+sysimgblt
 sysv
 t1pci
 t5403
@@ -3961,7 +3877,6 @@ team_mode_roundrobin
 tef6862
 tehuti
 tekram-sir
-teles_cs
 teranetics
 test-kstrtox
 test-string_helpers
@@ -4168,7 +4083,6 @@ ums-realtek
 ums-sddr09
 ums-sddr55
 ums-usbat
-uninorth-agp
 unix_diag
 upd64031a
 upd64083
@@ -4243,11 +4157,6 @@ ves1x93
 veth
 vf610_adc
 vf610_dac
-vfio
-vfio-pci
-vfio_iommu_spapr_tce
-vfio_spapr_eeh
-vfio_virqfd
 vga16fb
 vgastate
 vgem
@@ -4366,27 +4275,10 @@ wilc1000-sdio
 wilc1000-spi
 wimax
 winbond-840
-windfarm_ad7417_sensor
 windfarm_core
-windfarm_cpufreq_clamp
-windfarm_fcu_controls
-windfarm_lm75_sensor
-windfarm_lm87_sensor
-windfarm_max6690_sensor
-windfarm_pid
-windfarm_pm112
-windfarm_pm121
-windfarm_pm72
-windfarm_pm81
-windfarm_pm91
-windfarm_rm31
-windfarm_smu_controls
-windfarm_smu_sat
-windfarm_smu_sensors
 wire
 wishbone-serial
 wl1273-core
-wl3501_cs
 wm831x-dcdc
 wm831x-hwmon
 wm831x-isink
@@ -4440,8 +4332,6 @@ xilinx_uartps
 xillybus_core
 xillybus_of
 xillybus_pcie
-xirc2ps_cs
-xircom_cb
 xor
 xpad
 xr_usb_serial_common
@@ -4523,7 +4413,6 @@ xz_dec_test
 yam
 yealink
 yellowfin
-yenta_socket
 yurex
 z3fold
 zaurus
