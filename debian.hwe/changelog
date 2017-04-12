@@ -1,6 +1,16 @@
-linux-hwe (4.8.0-47.50~16.04.1) xenial; urgency=low
+linux-hwe (4.8.0-48.51~16.04.1) xenial; urgency=low
 
-  * linux-hwe: 4.8.0-47.50~16.04.1 -proposed tracker (LP: #1679682)
+  * linux-hwe: 4.8.0-48.51~16.04.1 -proposed tracker (LP: #1682037)
+
+  * [Hyper-V] hv: vmbus: Raise retry/wait limits in vmbus_post_msg()
+    (LP: #1681893)
+    - Drivers: hv: vmbus: Raise retry/wait limits in vmbus_post_msg()
+
+ -- Kleber Sacilotto de Souza <kleber.souza@canonical.com>  Wed, 12 Apr 2017 11:06:01 +0200
+
+linux (4.8.0-47.50) yakkety; urgency=low
+
+  * linux: 4.8.0-47.50 -proposed tracker (LP: #1679678)
 
   * CVE-2017-6353
     - sctp: deny peeloff operation on asocs with threads sleeping on it
@@ -291,7 +301,7 @@ linux-hwe (4.8.0-47.50~16.04.1) xenial; urgency=low
   * Linux ZFS port doesn't respect RLIMIT_FSIZE (LP: #1656259)
     - SAUCE: (noup) Update zfs to 0.6.5.8-0ubuntu4.2
 
- -- Kleber Sacilotto de Souza <kleber.souza@canonical.com>  Mon, 10 Apr 2017 18:35:55 +0200
+ -- Thadeu Lima de Souza Cascardo <cascardo@canonical.com>  Tue, 04 Apr 2017 16:56:40 +0100
 
 linux (4.8.0-46.49) yakkety; urgency=low
 
