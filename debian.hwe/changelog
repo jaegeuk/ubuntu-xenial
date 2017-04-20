@@ -1,6 +1,18 @@
-linux-hwe (4.8.0-48.51~16.04.1) xenial; urgency=low
+linux-hwe (4.8.0-49.52~16.04.1) xenial; urgency=low
 
-  * linux-hwe: 4.8.0-48.51~16.04.1 -proposed tracker (LP: #1682037)
+  * linux-hwe: 4.8.0-49.52~16.04.1 -proposed tracker (LP: #1684430)
+
+  * linux: 4.8.0-49.52 -proposed tracker (LP: #1684427)
+
+  * [Hyper-V] hv: util: move waiting for release to hv_utils_transport itself
+    (LP: #1682561)
+    - Drivers: hv: util: move waiting for release to hv_utils_transport itself
+
+ -- Stefan Bader <stefan.bader@canonical.com>  Thu, 20 Apr 2017 09:38:36 +0200
+
+linux (4.8.0-48.51) yakkety; urgency=low
+
+  * linux: 4.8.0-48.51 -proposed tracker (LP: #1682034)
 
   * [Hyper-V] hv: vmbus: Raise retry/wait limits in vmbus_post_msg()
     (LP: #1681893)
