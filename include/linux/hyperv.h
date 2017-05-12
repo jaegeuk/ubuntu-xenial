@@ -710,7 +710,7 @@ enum vmbus_device_type {
 	HV_FCOPY,
 	HV_BACKUP,
 	HV_DM,
-	HV_UNKNOWN,
+	HV_UNKOWN,
 };
 
 struct vmbus_device {
