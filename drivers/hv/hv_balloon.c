@@ -1025,13 +1025,8 @@ static void process_info(struct hv_dynmem_device *dm, struct dm_info_msg *msg)
 
 	switch (info_hdr->type) {
 	case INFO_TYPE_MAX_PAGE_CNT:
-		if (info_hdr->data_size == sizeof(__u64)) {
-			__u64 *max_page_count = (__u64 *)&info_hdr[1];
-
-			pr_info("INFO_TYPE_MAX_PAGE_CNT = %llu\n",
-				*max_page_count);
-		}
-
+		pr_info("Received INFO_TYPE_MAX_PAGE_CNT\n");
+		pr_info("Data Size is %d\n", info_hdr->data_size);
 		break;
 	default:
 		pr_info("Received Unknown type: %d\n", info_hdr->type);
