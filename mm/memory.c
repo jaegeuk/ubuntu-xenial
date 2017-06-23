@@ -2718,10 +2718,9 @@ static int do_anonymous_page(struct fault_env *fe)
 		return VM_FAULT_SIGBUS;
 
 	/* Check if we need to add a guard page to the stack */
-	if (stack_guard_area(vma, fe->address)) {
-		if (expand_stack(vma, fe->address) < 0)
-			return VM_FAULT_SIGSEGV;
-	}
+	if ((vma->vm_flags & (VM_GROWSDOWN|VM_GROWSUP)) &&
+			expand_stack(vma, fe->address) < 0)
+		return VM_FAULT_SIGSEGV;
 
 	/*
 	 * Use pte_alloc() instead of pte_alloc_map().  We can't run
