@@ -1,4 +1,14 @@
-linux-hwe-edge (4.11.0-13.19~16.04.1) xenial; urgency=low
+linux-hwe-edge (4.11.0-14.20~16.04.1) xenial; urgency=low
+
+  * CVE-2017-1000112
+    - udp: consistently apply ufo or fragmentation
+
+  * CVE-2017-1000111
+    - net-packet: fix race in packet_set_ring on PACKET_RESERVE
+
+ -- Stefan Bader <stefan.bader@canonical.com>  Tue, 08 Aug 2017 13:29:43 +0200
+
+linux (4.11.0-13.19) artful; urgency=low
 
   * CVE-2017-7533
     - dentry name snapshots
